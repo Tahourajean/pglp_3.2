@@ -1,0 +1,62 @@
+                                   ----------------------Exercice 3.2-------------------------------  
+
+1-proposons une solution respectant OCP
+
+public abstract class Personne{
+
+   public abstract double calculeSalaire();
+   public abstract double sommeSalaire();
+}
+
+public class employe extends Personne{
+
+   @override 
+ public double calculeSalaire(int nbAnciennete)
+    {
+        return 1500+nbAnciennete*20;
+    }
+
+   @override 
+ public double sommeSaliare(int nbAnciennete)
+    {
+      
+        return /*return la somme totale des salaires des employés*/
+    }
+}
+
+
+public class Vendeur extends Personne{
+
+   @override 
+ public double calculeSalaire(double commission)
+    {
+        return 1500+commision;
+    }
+
+ @override
+public double sommeSaliare(doublecommission)
+    {
+      
+        return /*return la somme totale des salaires des vendeurs*/
+    }
+}
+
+2-on cré une classe Manager qui éttend la classe Personne
+
+
+
+public class Manager extends Personne{
+
+   @override 
+ public double calculeSalaire(int nbPer)
+    {
+        return 1500+nbAnciennete*100;
+    }
+
+   @override 
+ public double sommeSaliare(int nbPer)
+    {
+      
+        return /*return la somme totale des salaires des salaires des Managers*/
+    }
+}
