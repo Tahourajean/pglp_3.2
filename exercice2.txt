@@ -60,3 +60,19 @@ public class Manager extends Personne{
         return /*return la somme totale des salaires des salaires des Managers*/
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
